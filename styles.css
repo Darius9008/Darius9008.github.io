@@ -1,0 +1,148 @@
+
+body {
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    color: #AA0000;
+    background-color: #ffe0dd;
+}
+header {
+	background-image: linear-gradient(to right, #ff8271, #ff6666, #ff8271);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    text-align: center;
+    background-color: #ff8271;
+    line-height: 500%;
+}
+main ul {
+    margin-top: 0px;
+    padding-left: 150px;
+}
+header div {
+	position: relative;
+	top: 10px;
+	display: inline;
+}
+nav {
+	background-image: linear-gradient(to bottom, #ff8271, #ff6666);
+    float: left;
+    height: 100vh;
+    background-color: #ff8271;
+    line-height: 33px;
+    font-size: 120%;
+    margin-top: 2px;
+    margin-right: 20px;
+    width: 110px;
+    clear: left;
+}
+nav a {
+	text-decoration: none;
+}
+nav li {
+	height: 60px;
+}
+.navButton {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #FF5F49;
+	height: 60px;
+	width: 100%;
+	box-shadow: inset -1px -2px 2px #aa0000;
+	transition: background-color 2s;
+}
+.navButton:hover{ 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #ff8271;
+	height: 60px;
+	width: 100%;
+	box-shadow: inset -1px -2px 2px #aa0000;
+}
+.navButton:active{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #FF5F49;
+	height: 60px;
+	width: 100%;
+	box-shadow: inset 3px 2px 2px #aa0000;
+}
+.centerVert {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0px;
+	text-align: center;
+}
+table {
+	width: 500px;
+	border: 1px solid #FF0000;
+	border-collapse: collapse;
+}
+th {
+	background-color: #FF888A;
+	height: 2em;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #FF0000;
+}
+td {
+	height: 1.5em;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #FF0000;
+}
+tr {
+	background-color: #FFEFEF;
+}
+tr:nth-of-type(odd) {
+	background-color: #FFC5C6;
+}
+.custom_text {
+    font-size: 20px;
+}
+textarea {
+	margin-top: 2px;
+}
+footer {
+    text-align: center;
+}
+form {
+	width: 400px;
+
+}
+input {
+	float: right;
+}
+label {
+	padding-right: 5px;
+	float: left;
+	text-align: left;
+}
+#size {
+	width: 100px
+}
+#map {
+	box-shadow: 3px 3px 2px #550000;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#submit {
+	float: left;
+}
+h1 {
+    margin-bottom: 0px;
+    display: inline;
+}
+a {
+    color: #AA0000;
+}
